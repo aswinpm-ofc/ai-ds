@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LexiKey — Corpus Predictive Keyboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <main class="app">
+    <section class="hero">
+      <div>
+        <span class="badge">Computational Linguistics Project</span>
+        <h1>LexiKey</h1>
+        <p>Regex + Corpus-Based Predictive Keyboard</p>
+      </div>
+      <button id="clearBtn" class="clear">Clear</button>
+    </section>
+
+    <section class="phone">
+      <div class="screen">
+        <textarea id="textBox" placeholder="Start typing..."></textarea>
+      </div>
+
+      <div class="suggestions" id="suggestions">
+        <button class="suggestion muted">Suggestions appear here</button>
+      </div>
+
+      <div class="keyboard" id="keyboard"></div>
+    </section>
+
+    <section class="info">
+      <h2>How the prediction works</h2>
+      <p>
+        The system cleans a corpus with regular expressions, tokenizes it,
+        builds unigram/bigram/trigram frequency models, detects the current
+        word with regex, and ranks matching suggestions using context and frequency.
+      </p>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='keyboard.js') }}"></script>
+</body>
+</html>

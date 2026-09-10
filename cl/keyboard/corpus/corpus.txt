@@ -1,0 +1,53 @@
+I am happy to see you.
+I am going to college today.
+I am going to study computer science.
+I want to go home.
+I want to go outside.
+I want to eat food.
+I want to eat pizza.
+I want to learn new things.
+I want to learn computational linguistics.
+I like computer science.
+I like programming.
+I like Python programming.
+I like building software.
+I am working on my final project.
+This is a simple keyboard project.
+This project uses a corpus.
+The corpus contains common English sentences.
+The keyboard gives word suggestions.
+The suggestion system uses regular expressions.
+Regular expressions can find words and patterns.
+The system uses word frequency.
+The system uses bigram language modeling.
+The system uses trigram language modeling.
+The user can type a sentence.
+The user can select a suggestion.
+The selected suggestion is inserted into the text.
+The keyboard has letters numbers and common controls.
+The keyboard is designed for mobile and desktop screens.
+I am learning natural language processing.
+Natural language processing studies human language.
+Language models predict the next word.
+A corpus is a collection of text.
+Words occur with different frequencies.
+Context can improve word prediction.
+I am looking for a good solution.
+I am looking at the computer.
+I am looking for my friend.
+I am going home.
+I am going to the library.
+I am going to the lab.
+I need to complete my project.
+I need to submit my project.
+I need to study for my exam.
+I want to make a good project.
+I want to build a useful application.
+I want to create a simple interface.
+I want to write clean code.
+I want to understand language models.
+The project is useful for computational linguistics.
+The project demonstrates regex and corpus processing.
+The project demonstrates tokenization and ngrams.
+The project demonstrates predictive text.
+The project demonstrates frequency based ranking.
